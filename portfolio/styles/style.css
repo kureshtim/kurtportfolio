@@ -16,11 +16,11 @@
     --nm-mob: 14px;
 
     /* COLORS. */
-    --primary: tomato;
-    --secondary: #49C5B6;
+    --primary: rgb(51, 61, 62);
+    --secondary: #49c566;
     --white: #FEFEFE;
     --white-2: #F0F0F0;
-    --black: #030303;
+    --black: #f03939;
     --black-2: #303030;
     --gray: #606060;
     --gray-2: #E0E0E0;
@@ -172,10 +172,10 @@ html, body {
         /*  Will shrink on smaller screens */
         aspect-ratio: 1 / 1;
         /* Keeps it square, you can tweak */
-        background-image: url("../assets/images/Image.png");
+        background-image: url("../assets/images/myimg.jpg");
         background-size: cover;
         background-position: center;
-        border-radius: 10px;
+        border-radius: 50%;
 
         &:hover {
             cursor: pointer;
